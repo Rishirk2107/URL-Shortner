@@ -6,7 +6,7 @@ export default function Home() {
   const [shortUrl, setShortUrl] = useState("");
 
   const shortenUrl = async () => {
-    const response = await fetch("https://d3vmn5fc1a7tvq.cloudfront.net/prod/shorten", {
+    const response = await fetch("https://api.byteblazeverse.space/shorten", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
