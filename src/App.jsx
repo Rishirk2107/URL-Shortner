@@ -1,5 +1,5 @@
 import React from "react";
-import ShortenerForm from "./components/ShortnerForm";
+import ShortenerForm from "./components/ShortenForm";
 
 export default function App() {
   return (
