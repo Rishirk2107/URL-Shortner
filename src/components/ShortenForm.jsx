@@ -1,4 +1,3 @@
-// src/components/ShortenerForm.jsx
 import React, { useState } from "react";
 
 export default function ShortenerForm() {
